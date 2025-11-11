@@ -28,8 +28,10 @@ int main() {
     }
     int maxx = FindMax(a, n);
     int minn = FindMin(a, n);
+    cout << "Mang a co tong cong: " << n << " so" << endl;
     cout << "So lon nhat trong mang a la: " << maxx << endl;
     cout << "So be nhat trong mang a la: " << minn << endl;
+    
     return 0;
     
 }
